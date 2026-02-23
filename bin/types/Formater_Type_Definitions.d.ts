@@ -1,4 +1,4 @@
-type boldSelection = ;
+type boldSelection = () => void;
 /**
  * 
  */
@@ -11,7 +11,7 @@ declare global {
 
     }
 
-    
+
 
     interface FormaterObject {
         
