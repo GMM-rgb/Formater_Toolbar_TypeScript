@@ -1,20 +1,18 @@
-type boldSelection = () => void;
+declare function selectiveBold(): void;
 /**
  * 
+ * ---
+ * 
+ * The `BUTTONbold`; or commonly just the Bolding Button, contains methods for bolding user selective text.
+ * 
  */
-type BOLD_BUTTON = [
-    boldCurrentSelection: boldSelection,
+type ButtonBold = [
+    BoldSelection: typeof selectiveBold,
 ];
 
 declare global {
-    namespace BOLDING {
-
-    }
-
-
-
     interface FormaterObject {
-        
+        BOLDING: Readonly<ButtonBold>,
     }
 } 
 
