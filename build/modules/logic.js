@@ -1,9 +1,10 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.FormatInterfaceInstancing = void 0;
-var FormatInterfaceInstancing = (function () {
-    function FormatInterfaceInstancing() {
+exports.FormatInstancerObject = void 0;
+var FormatInstancerObject = (function () {
+    function FormatInstancerObject() {
+        this.FormatButtonTypeActive = false;
     }
-    return FormatInterfaceInstancing;
+    return FormatInstancerObject;
 }());
-exports.FormatInterfaceInstancing = FormatInterfaceInstancing;
+exports.FormatInstancerObject = FormatInstancerObject;

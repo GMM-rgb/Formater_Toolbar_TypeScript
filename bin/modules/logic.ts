@@ -1,14 +1,15 @@
-class FormaterObject {
+class FormatInstancerObject implements FormaterInstancer.FormaterObjectTypes {
+    FormatButtonTypeActive: boolean;
+
     constructor() {
-        this.hovering = false;
-        this.active = false;
+        this.FormatButtonTypeActive = false;
     }
 
-    selectiveBold() {
-
-    }
+    BOLD: FormaterInstancer.FormaterObjectBolding;
 }
 
+
+
 export {
-    FormaterObject,
+    FormatInstancerObject,
 };

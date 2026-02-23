@@ -22,4 +22,4 @@ var Formater = (function (_super) {
         return _super !== null && _super.apply(this, arguments) || this;
     }
     return Formater;
-}(FormaterLogic.FormatInterfaceInstancing));
+}(FormaterLogic.FormatInstancerObject));
