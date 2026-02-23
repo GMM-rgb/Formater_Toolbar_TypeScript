@@ -1,0 +1,12 @@
+{
+    "buildOptions": {
+        "verbose": true
+    },
+    "compilerOptions": {
+        "pretty": true,
+        "diagnostics": true,
+        "removeComments": true,
+        "alwaysStrict": true,
+        "outDir": "./build",
+    }
+}
